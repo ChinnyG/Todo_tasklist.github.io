@@ -1,5 +1,6 @@
+pip install psycopg2-binary
 
+install dj-database-url
 
-python3.8.4 -m pip install --upgrade pip
-python3 manage.py runserver
-
+# Add these dependencies to your requirements.txt file:
+pip freeze > requirements.txt
